@@ -126,7 +126,7 @@ p{
     height: 30rem;
 }
 
-nav .nav-items{
+.nav .nav-items{
     display: flex;
     margin: 0;
 }
@@ -139,6 +139,13 @@ nav .nav-items{
     font-size: 1.1rem;
 }
 
+.nav .nav-items .nav-link:hover{
+    background-color: var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: var(--white);
+}
 
 .nav .nav-brand a{
     font-size: 1.6rem;
