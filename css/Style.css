@@ -126,7 +126,10 @@ p{
     height: 30rem;
 }
 
-
+nav .nav-items{
+    display: flex;
+    margin: 0;
+}
 
 .nav .nav-items .nav-link{
     padding: 1.6rem 1rem;
